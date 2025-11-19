@@ -98,15 +98,6 @@ IMDB-Clone/
 └── README.md
 ```
 
-## 🤝 Kontribusi
-
-Kontribusi selalu diterima! Silakan:
-1. Fork repository ini
-2. Buat branch baru (`git checkout -b feature/AmazingFeature`)
-3. Commit perubahan Anda (`git commit -m 'Add some AmazingFeature'`)
-4. Push ke branch (`git push origin feature/AmazingFeature`)
-5. Buat Pull Request
-
 ## 📝 Lisensi
 
 Proyek ini dibuat untuk tujuan pembelajaran.
@@ -114,11 +105,3 @@ Proyek ini dibuat untuk tujuan pembelajaran.
 ## 📧 Kontak
 
 Sebiman4 - [@Sebiman4](https://github.com/Sebiman4)
-
-Project Link: [https://github.com/Sebiman4/IMDB-Clone](https://github.com/Sebiman4/IMDB-Clone)
-
-## 🙏 Acknowledgments
-
-- [Create React App](https://github.com/facebook/create-react-app)
-- [IMDB](https://www.imdb.com/) - Inspirasi design
-- [React Documentation](https://reactjs.org/)
