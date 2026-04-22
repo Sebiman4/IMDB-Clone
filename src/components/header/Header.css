@@ -1,0 +1,91 @@
+.header {
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    gap: 1rem;
+}
+
+.headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+a > span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a > span:hover {
+    color: #caa24a;
+}
+
+.header__icon {
+    height: 62px;
+    width: auto;
+    cursor: pointer;
+}
+
+.user__avatar {
+    font-size: 2rem;
+}
+
+.headerSearch {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.headerSearch__input {
+    width: 280px;
+    max-width: 40vw;
+    padding: 0.55rem 0.75rem;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(0, 0, 0, 0.25);
+    color: white;
+    outline: none;
+}
+
+.headerSearch__input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.headerSearch__button {
+    padding: 0.55rem 0.9rem;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    cursor: pointer;
+}
+
+.headerSearch__button:hover {
+    background: rgba(255, 255, 255, 0.14);
+}
+
+@media (max-width: 768px) {
+    .header {
+        margin: 0 1rem;
+        flex-wrap: wrap;
+    }
+    .headerLeft {
+        justify-content: flex-start;
+    }
+    a > span {
+        margin: 0 12px;
+    }
+    .headerRight {
+        justify-content: flex-end;
+        margin-left: auto;
+    }
+    .headerSearch__input {
+        width: 240px;
+        max-width: 70vw;
+    }
+}
